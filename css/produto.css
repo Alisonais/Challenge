@@ -1,0 +1,112 @@
+
+
+.produtoStarwars , .produtoConsole, .produtoDiversos {
+    background-color: var(--cinza);
+
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 2rem;
+}
+
+.containerProduto {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.produtoLink {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: .875rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--azul);
+}
+
+.produtoTitulo {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.produtoNome {
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: .875rem;
+    color: var(--preto);
+    padding: 0.5rem 0.5rem 0.25rem 0;
+}
+
+.produtoPreco {
+    font-weight: 700;
+    color: var(--preto);
+    padding: 0.25rem 0.5rem 0.25rem 0;
+}
+
+.produtoLinkAnuncio {
+    font-size: .875rem;
+    color: var(--azul);
+    font-weight: 700;
+    padding: 0.25rem 0.5rem 1rem 0;
+}
+
+.produtoAnuncio {
+    display: flex;
+    flex-direction: column;
+}
+
+.produtofoto {
+    width: 154px;
+    height: 174px;
+}
+
+.produtoGaleria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtoAnuncio1024 {
+    display: none;
+}
+
+.produtoAnuncio1440 {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+
+    .produtoStarwars , .produtoConsole , .produtoDiversos {
+        padding-bottom: 4rem;
+    }
+    .produtoGaleria {
+        justify-content: space-between;
+    }
+    .produtofoto {
+        width: 164px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .produtoAnuncio1024 {
+    display: block;
+    }
+    .produtofoto {
+        width: 174px;
+        height: 184px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .produtoStarwars , .produtoConsole , .produtoDiversos {
+        padding-left: calc((100% - 1136px)/2);
+        padding-right: calc((100% - 1136px)/2);
+    }
+    .produtoAnuncio1440 {
+        display: block;
+    }
+}

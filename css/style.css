@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,500&display=swap');
+@import url(../css/cabecalho.css);
+@import url(../css/banner.css);
+@import url(../css/produto.css);
+@import url(../css/rodape.css);
+
+body {
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+
+:root {
+    --branco: #FFFFFF;
+    --cinzaClaro: #F5F5F5;
+    --azul: #2A7AE4;
+    --preto: #464646;
+    --cinza: #E5E5E5;
+    --cinzaBgFooter: #EAF2FD;
+    --pretoClaro: #A2A2A2;
+
+    --font: 'Raleway', sans-serif;
+
+    --bg:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../imagem/banner/banner.jpg);
+}
+
+
+

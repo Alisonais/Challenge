@@ -1,0 +1,87 @@
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--branco);
+
+    padding: 1.2rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 6rem 2.5rem 4.75rem 2.5rem;
+    background-color: var(--cinza);
+}
+
+.loginTitulo {
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.loginEmailInput, .loginSenhaInput {
+    width: 80vw;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-family:var(--font);
+    font-size:16px;
+    font-weight: 400;
+    color:var(--cinzaClaro);
+    padding: 0 0 0 1rem;
+}
+
+.loginBotao {
+    width: 30vw;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font);
+    font-weight:600;
+    font-size: 14px;
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+@media screen and (min-width:768px) {
+
+    .cabecalho {
+        justify-content: flex-start;
+    } 
+
+    .loginEmailInput, .loginSenhaInput{
+        width: 275px;
+    }
+
+    .loginBotao {
+        width: 109px;
+    } 
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .loginEmailInput, .loginSenhaInput{
+        width: 323px;
+    }
+
+    .loginBotao {
+        width: 223px;
+    
+}
+
+@media screen and (min-width:1440px) {
+    
+    .loginEmailInput, .loginSenhaInput{
+        width: 423px;
+    }
+
+    .loginBotao {
+        width: 423px;
+    } 
+}

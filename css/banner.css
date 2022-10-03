@@ -1,0 +1,51 @@
+.banner {
+    background-size: cover;
+    background-image: var(--bg);
+    background-position: center;
+    height: 192px;
+}
+
+.bannerDiv {
+    padding: 4.8rem 1rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bannerTirulo{
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--branco);
+}
+
+.bannerTexto {
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 352px   ;
+    }
+    .bannerDiv {
+        padding: 11rem 1rem 1rem 1rem;
+        gap: 1rem;
+    }
+
+    .bannerTirulo {
+        font-size: 52px; 
+    }
+
+    .bannerTexto {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .bannerDiv{
+        padding-left: calc((100% - 1136px)/2);
+        padding-right: calc((100% - 1136px)/2);
+    }
+}
