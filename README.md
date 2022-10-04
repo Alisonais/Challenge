@@ -32,8 +32,4 @@
 <h2 align="center">Contato</h2>
 <br>
 
-<<<<<<< HEAD
 <a>alisonais@ymail.com</a>
-=======
-<a>alisonais@ymail.com</a>
->>>>>>> 6a699702ed0fc772ae8b8676ea105d5ccbf4413f
