@@ -15,7 +15,7 @@
 <br><br><br>
 
 <b>- 1ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-%20Concluido-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-%20Concluido-brightgreen"><br><br>
 <b>- 2ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
 <br>A definir<br><br>
