@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-<img src="imagem\barraDePesquisa\Logo.svg">
+<img src="imagem\barraDePesquisa\Logo.svg" width="400px">
 
 </p>
 <br>
@@ -16,6 +16,7 @@
 
 <b>- 1ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-%20Concluido-brightgreen"><br><br>
+<a>https://alisonais.github.io/Challenge/index.html</a><br><br>
 <b>- 2ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
 <br>A definir<br><br>
@@ -31,4 +32,4 @@
 <h2 align="center">Contato</h2>
 <br>
 
-<p align= "center">alison@ymail.com</p>
+<a>alisonais@ymail.com</a>
