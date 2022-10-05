@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja | AluraGeek</title>
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\adicionarProdutos.css">
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <a href="index.html"><img  src="imagem/barraDePesquisa/Logo.svg" alt="logo Alura geek"></a>
+        <div class="divCabecalho2 divCabecalho">
+            <a href="#" class="cabecalhoLogin2 cabecalhoLogin ">Menu administrador</a>
+            <input type="serch" class="cabecalhoInputPesquisaTablet" placeholder="O que deseja encontrar?">
+            <div class="container">
+                <input type="checkbox" id="menu" class="cabecalhoBotao">
+                <label for="menu">
+                    <span class="cabecalhoPesquisa"></span>
+                </label>
+                <input type="serch" class="cabecalhoCaixaPesquisa" placeholder="O que deseja encontrar?">
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="" class="formulario">
+            <h1 class="formularioTextoAP">Adicionar novo produto</h1>
+            <div class="formulariodiv">
+                <label for="pesquisa" class="formularioDescricao">URL da imagem</label>
+                <input type="search" id="pesquisa" class="formularioLink">
+            </div>
+            <div class="formulariodiv">
+                <label for="categoria" class="formularioDescricao">Categoria</label>
+                <input type="text" id="categoria" class="formularioLink">
+            </div>
+            <div class="formulariodiv">
+                <label for="produto" class="formularioDescricao">Nome do produto</label>
+                <input type="text" id="produto" class="formularioLink">
+            </div>
+            <div class="formulariodiv">
+                <label for="preco" class="formularioDescricao">Preço do produto</label>
+                <input type="text" id="preco" class="formularioLink">
+            </div>         
+            <div class="formulariodiv">
+                <label for="areaTexto" class="formularioDescricao">Descrição do produto</label>
+                <textarea name="" id="formulariodiv" class="formularioLink"></textarea>
+            </div>
+            <div class="formularioDiv">
+                <input type="submit" id="submit" class="formularioSubmit" value="Adicionar produto">
+            </div>
+        </form>
+
+        <footer class="rodape">
+            <div class="rodapeTela2">
+                <div class="rodapeTela">
+                    <a href="#cabecalho" class="rodapeLogo"><img class="rodapeLogoImg" src="imagem/barraDePesquisa/Logo.svg" alt="logo AluraGeek"></a>
+                    <div class="rodapeInstitucional">
+                        <a href="#" class="rodapeInstitucionalTexto">Quem somos nós</a>
+                        <a href="#" class="rodapeInstitucionalTexto">Política de privacidade</a>
+                        <a href="#" class="rodapeInstitucionalTexto">Programa fidelidade</a>
+                        <a href="#" class="rodapeInstitucionalTexto">Nossas lojas</a>
+                        <a href="#" class="rodapeInstitucionalTexto">Quero ser franqueado</a>
+                        <a href="#" class="rodapeInstitucionalTexto">Anuncie aqui</a>
+                    </div>
+                </div>
+                    <form class="rodapeFormulario">
+                        <h2 class="formularioTitulo">Fale conosco</h2>
+                        <div class="containerFormularioNome">
+                            <label for="nome" class="formularioNome">Nome</label>
+                            <input type="text" id="nome" class="formularioNomeInput">
+                        </div>
+                        <div class="containerFormularioTexto">
+                            <textarea class="formularioTexto" name="mensagem" id="" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <button class="formularioBotao">Enviar mensagem</button> 
+                    </form>
+            </div>
+            <div class="desenvolvedor">
+                <a href="https://github.com/Alisonais" class="linkGit">Desenvolvido por Alison I Silva 2021</a>
+            </div>
+        </footer>    
+</body>
+</html>
