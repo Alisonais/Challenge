@@ -20,6 +20,7 @@
 <b>- 2ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
 <br>Avançando no projeto: produtos e login<br><br>
+<a>https://alisonais.github.io/Challenge/<a/><br>
 <b>- 3ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
 <br>A definir<br><br>
