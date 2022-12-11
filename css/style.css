@@ -5,6 +5,7 @@
 @import url(../css/produto.css);
 @import url(../css/rodape.css);
 @import url(produtoSimilar.css);
+@import url(../js/main.js);
 
 body {
     font-family: var(--font);

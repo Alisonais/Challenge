@@ -13,7 +13,7 @@
     <header class="cabecalho" id="cabecalho">
         <a href="index.html"><img  src="imagem/barraDePesquisa/Logo.svg" alt="logo Alura geek"></a>
         <div class="divCabecalho2 divCabecalho">
-            <a href="#" class="cabecalhoLogin2 cabecalhoLogin ">Menu administrador</a>
+            <a href="produtos.html" class="cabecalhoLogin2 cabecalhoLogin ">Todos Produtos</a>
             <input type="serch" class="cabecalhoInputPesquisaTablet" placeholder="O que deseja encontrar?">
             <div class="container">
                 <input type="checkbox" id="menu" class="cabecalhoBotao">
@@ -27,30 +27,36 @@
     <main>
         <form action="" class="formulario">
             <h1 class="formularioTextoAP">Adicionar novo produto</h1>
-            <div class="formulariodiv">
-                <label for="pesquisa" class="formularioDescricao">URL da imagem</label>
-                <input type="search" id="pesquisa" class="formularioLink">
+            <div class="formulariodivFoto">
+                <label for="pesquisa" class="formularioDescricao" >inserir Imagem</label>
+                <input type="file" id="pesquisa" class="formularioLink">
+                <label for="adicionar" class="formularioDescricao2">URL da Imagem
+                <input type="text" id="adicionar" class="formularioLink2" data-form></label>
+                <div class="imagemPrev">
+                    
+                </div>
             </div>
-            <div class="formulariodiv">
-                <label for="categoria" class="formularioDescricao">Categoria</label>
-                <input type="text" id="categoria" class="formularioLink">
+            <div class="formulariodivDados">
+                <label for="categoria" class="formularioDescricao3">Categoria
+                <input type="text" id="categoria" class="formularioLink3" data-form></label>
             </div>
-            <div class="formulariodiv">
-                <label for="produto" class="formularioDescricao">Nome do produto</label>
-                <input type="text" id="produto" class="formularioLink">
+            <div class="formulariodivDados">
+                <label for="produto" class="formularioDescricao3">Nome do produto
+                <input type="text" id="produto" class="formularioLink3" data-form></label>
             </div>
-            <div class="formulariodiv">
-                <label for="preco" class="formularioDescricao">Preço do produto</label>
-                <input type="text" id="preco" class="formularioLink">
+            <div class="formulariodivDados">
+                <label for="preco" class="formularioDescricao3">Preço do produto
+                <input type="text" id="preco" class="formularioLink3" data-form></label>
             </div>         
-            <div class="formulariodiv">
-                <label for="areaTexto" class="formularioDescricao">Descrição do produto</label>
-                <textarea name="" id="formulariodiv" class="formularioLink"></textarea>
+            <div class="formulariodivDados">
+                <label for="areaTexto" class="formularioDescricao3">Descrição do produto
+                <textarea name="" id="descricao" class="formularioLink3" data-form></textarea></label>
             </div>
-            <div class="formularioDiv">
-                <input type="submit" id="submit" class="formularioSubmit" value="Adicionar produto">
+            <div class="formularioDivSubmit">
+                <input type="submit" id="submit" class="formularioSubmit" value="Salvar">
             </div>
         </form>
+        <ul id="lista"></ul>
 
         <footer class="rodape">
             <div class="rodapeTela2">
@@ -80,6 +86,7 @@
             <div class="desenvolvedor">
                 <a href="https://github.com/Alisonais" class="linkGit">Desenvolvido por Alison I Silva 2021</a>
             </div>
-        </footer>    
+        </footer>  
+        <script src="js/adicionarProdutos.js"></script>  
 </body>
 </html>

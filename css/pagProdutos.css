@@ -22,7 +22,7 @@
     border: none;
     border-radius: 6px;
 
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -52,6 +52,7 @@
 .produtofoto2{
     width: 140px;
     height: 174px;
+    border-radius: 10px;
 }
 
 .produtoAncoras{

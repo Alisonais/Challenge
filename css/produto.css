@@ -61,6 +61,7 @@
 .produtofoto {
     width: 154px;
     height: 174px;
+    border-radius: 10px;
 }
 
 .produtoGaleria {

@@ -27,13 +27,14 @@
     <h2 class="loginTitulo">Iniciar Sessão</h2>
     <div class="containerEmail">
         <label for="" class="loginEmail"></label>
-        <input type="email" class="loginEmailInput" placeholder="Escreva seu email">
+        <input type="email" class="loginEmailInput" placeholder="Escreva seu email" required>
     </div>
     <div class="containerSenha">
         <label for="" class="loginSenha"></label>
-        <input type="password" class="loginSenhaInput" placeholder="Escreva sua senha">
+        <input type="password" class="loginSenhaInput" placeholder="Escreva sua senha" required>
     </div>
-    <button class="loginBotao">Entrar</button>
+    <span class="loginMensagemErro">login ou senha incorreta</span>
+    <button class="loginBotao" data-submit >Entrar</button>
 </form>
 <footer class="rodape">
     <div class="rodapeTela2">
@@ -64,5 +65,6 @@
         <a href="https://github.com/Alisonais" class="linkGit">Desenvolvido por Alison I Silva 2021</a>
     </div>
 </footer> 
+<script src="js/login.js" type="module"></script>
 </body>
 </html>

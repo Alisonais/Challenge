@@ -32,8 +32,14 @@
     font-family:var(--font);
     font-size:16px;
     font-weight: 400;
-    color:var(--cinzaClaro);
+    color:var(--preto);
     padding: 0 0 0 1rem;
+}
+
+.loginMensagemErro {
+    color: red;
+    text-shadow: 0 0 10px #607d8b;
+    display: none;
 }
 
 .loginBotao {
@@ -84,4 +90,5 @@
     .loginBotao {
         width: 423px;
     } 
+}
 }
