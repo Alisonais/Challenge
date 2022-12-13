@@ -22,12 +22,12 @@ produtosLocalStorage.forEach(produto => {
     ` 
 })
 
-elementoEditarExcluir = document.querySelectorAll('.produtoAncoras');
-elementoEditarExcluir.forEach((item) => {
-    item.children[0].addEventListener('click',(e)=>{
-        e.preventDefault();
-        // console.log('editar');
-        editarItem(e)
+if(localStorage.acesso){                                                           // == validação do login == 
+elementoEditarExcluir = document.querySelectorAll('.produtoAncoras');              // == variavel recebendo o elemento ==
+elementoEditarExcluir.forEach((item) => {                                          // == percorrendo todos os elementos ==
+    item.children[0].addEventListener('click',(e)=>{                               // == evento de click no elemento de lapis na foto ==
+        e.preventDefault();                                                        // == evita ação padrão do navegador ==
+        editarItem(e)                                                              // == chama a função para editar ==
     })
     item.children[1].addEventListener('click', (e)=>{
         e.preventDefault();
@@ -35,7 +35,7 @@ elementoEditarExcluir.forEach((item) => {
         e.path[3].style.display = "none"
         
     })
-})
+})}
 // ===== validação de usiario e senha =====
 if (converteAcesso == null){
     botaoAdicionarProdutoNone();
