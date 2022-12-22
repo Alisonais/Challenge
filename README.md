@@ -18,16 +18,15 @@
 <img src="https://img.shields.io/badge/STATUS-%20Concluido-brightgreen"><br><br>
 <a>https://alisonais.github.io/Challenge/index.html</a><br><br>
 <b>- 2ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-%20Concluido-brightgreen">
 <br><br>Avançando no projeto: produtos e login<br>
 <a>https://alisonais.github.io/Challenge/<a/><br><br>
-<b>- 3ª Semana:</b>
+<b>- Pos-Evento: </b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
-<br>A definir<br><br>
-<b>- 4ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
-<br>A definir<br><br>
-<br>
+<br><br>Avançando no projeto: Desenvolvendo js<br>
+<a>https://alisonais.github.io/Challenge/<a/><br><br>
+
+
          
  
 <h2 align="center">Contato</h2>
