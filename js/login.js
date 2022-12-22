@@ -31,9 +31,6 @@ submit.addEventListener('click', (e) =>{
     }
 })
 
-
-
-
 // ===== funções =====
 function salvarLocalStorage(e){
     const liberacao = {
