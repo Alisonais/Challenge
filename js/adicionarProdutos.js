@@ -48,6 +48,7 @@ submit.addEventListener('click', (e)=>{
     e.target.form[3].value =''
     e.target.form[4].value =''
     e.target.form[5].value =''
+    e.target.form[6].value =''
 })
 
 //===== funções =====
@@ -62,7 +63,8 @@ function salvarLocalStorage (e) {
        let categoria = e.target.form[2].value;
        let nome = e.target.form[3].value;
        let preco = e.target.form[4].value;
-       let descricao =  e.target.form[5].value;
+       let codigo =  e.target.form[5].value;
+       let descricao =  e.target.form[6].value;
 
        let dadosProduto = new Array()
 
@@ -70,7 +72,7 @@ function salvarLocalStorage (e) {
             dadosProduto = JSON.parse(localStorage.getItem("produtoAdicionar"));
             console.log("aqui sem item no array");  
         } 
-        dadosProduto.push({foto, categoria, nome, preco, descricao});
+        dadosProduto.push({foto, categoria, nome, preco, codigo, descricao});
         localStorage.setItem("produtoAdicionar",JSON.stringify(dadosProduto));     
 }
 

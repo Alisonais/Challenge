@@ -17,7 +17,7 @@ produtosLocalStorage.forEach(produto => {
             </div>
             <p class="produtoNome">${produto.nome}</p>
             <p class="produtoPreco">${produto.preco}</p>
-            <p class="produtocodigo">${produto.descricao}</p>
+            <p class="produtocodigo">${produto.codigo}</p>
         </li>
     ` 
 })

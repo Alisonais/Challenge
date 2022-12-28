@@ -1,17 +1,23 @@
 
 
 .destaque{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .destaqueImagem{
-width: 100vw;
-border-radius: 20px;
+    width: 90vw;
+    border-radius: 20px;
 
 }
 
 .destaquecontainerTexto{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
 .destaqueTitulo{
@@ -54,11 +60,16 @@ border-radius: 20px;
     text-transform: initial;
 }
 
+.produtoGaleria{
+    padding: 10px 20px;
+}
+
 
 @media screen and (min-width:768px){
     .destaque{
         display: flex;
         padding: 2rem;
+        flex-direction: row;
     }
 
     .destaqueImagem{
