@@ -60,12 +60,12 @@
     height: 82px;
 }
 
-.formularioNomeInput, .formularioTexto, .formularioBotao {
+.formularioNomeInput, .formularioTexto, .formularioBotao, .formularioBotao2 {
     border: none;
     font-family: var(--font);
 }
 
-.formularioBotao {
+.formularioBotao, .formularioBotao2{
     width: 151px;
     height: 40px;
     background-color: var(--azul);
