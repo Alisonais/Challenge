@@ -64,7 +64,7 @@ function salvarLocalStorage (e) {
        let nome = e.target.form[3].value;
        let preco = e.target.form[4].value;
        let codigo =  e.target.form[5].value;
-       let descricao =  e.target.form[6].value;
+       let descrição =  e.target.form[6].value;
 
        let dadosProduto = new Array()
 
@@ -72,7 +72,7 @@ function salvarLocalStorage (e) {
             dadosProduto = JSON.parse(localStorage.getItem("produtoAdicionar"));
             console.log("aqui sem item no array");  
         } 
-        dadosProduto.push({foto, categoria, nome, preco, codigo, descricao});
+        dadosProduto.push({foto, categoria, nome, preco, codigo, descrição});
         localStorage.setItem("produtoAdicionar",JSON.stringify(dadosProduto));     
 }
 

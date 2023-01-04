@@ -258,7 +258,7 @@ function BtnVerProduto(){
 
         localStorage.setItem('produtoClicado',JSON.stringify(produtoNome));
 
-        window.location.href = "../prodotosSimilares.html"
+        window.location.href = "./prodotosSimilares.html"
 
        })
     })
